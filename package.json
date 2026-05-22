@@ -1,0 +1,60 @@
+{
+  "name": "persian-calendar-tailwind",
+  "version": "1.0.0",
+  "description": "A modern and customizable Persian (Jalali) calendar component for React, built with Tailwind CSS.",
+  "keywords": [
+    "react",
+    "calendar",
+    "datepicker",
+    "persian",
+    "jalali",
+    "shamsi",
+    "persian-calendar",
+    "react-component",
+    "tailwindcss",
+    "date-picker"
+  ],
+  "author": "mehr1300",
+  "license": "MIT",
+  "type": "module",
+  "main": "dist/persian-calendar.umd.js",
+  "module": "dist/persian-calendar.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/persian-calendar.es.js",
+      "require": "./dist/persian-calendar.umd.js"
+    },
+    "./style.css": "./dist/persian-calendar.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "jalaali-js": "^1.2.8"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.3.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "tailwindcss": "^4.3.0",
+    "vite": "^8.0.12"
+  }
+}

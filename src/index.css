@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: IRANSansXFaNum;
+    font-style: normal;
+    font-weight: bold;
+    src: url('assets/fonts/Woff/IRANSansXFaNum-Bold.woff') format('woff'),
+    url('assets/fonts/Woff2/IRANSansXFaNum-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: IRANSansXFaNum;
+    font-style: normal;
+    font-weight: 300;
+    src: url('assets/fonts/Woff/IRANSansXFaNum-Light.woff') format('woff'),
+    url('assets/fonts/Woff2/IRANSansXFaNum-Light.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: IRANSansXFaNum;
+    font-style: normal;
+    font-weight: 500;
+    src: url('assets/fonts/Woff/IRANSansXFaNum-Medium.woff') format('woff'),
+    url('assets/fonts/Woff2/IRANSansXFaNum-Medium.woff2') format('woff2');
+}
+
+body {
+    font-family: IRANSansXFaNum, serif !important;;
+    scroll-behavior: smooth;
+}
